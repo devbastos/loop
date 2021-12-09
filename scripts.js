@@ -2,7 +2,7 @@
 
 //apresentando numeros Pares
 for (let i = 0; i < 5; i++) {
-    console.log('Uma frase ou um obj a ser repetido', i);
+    console.log('Uma frase ou um objeto a ser repetido', i);
 }
 
 //apresentando numeros impares
