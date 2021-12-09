@@ -19,7 +19,7 @@ for (let i = 1; i < 100; i++) {
     }
 }
 
-//while loop 
+//2.while loop 
 //apresentando numeros impares
 let i = 5;
 
@@ -38,3 +38,25 @@ do {
     console.log('Digitando...', i);
     i++;
 } while (i < 10)
+
+
+//3. for-in 
+const pessoa = {
+    nome: 'Gabriel',
+    idade: 20
+};
+for (let chave in pessoa) {
+    console.log(chave, pessoa['nome'])
+}
+
+
+const cores = ['Vermelho', 'azul', 'verde'];
+
+for (let indice in cores) {
+    console.log(indice, cores[indice])
+}
+
+//for-of
+for (let cor of cores) {
+    console.log(cor);
+}
